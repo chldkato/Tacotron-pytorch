@@ -32,7 +32,7 @@
    ```
      * train1.py - train2.py 순으로 실행합니다
      * 원하는 name을 정하면 ckpt/<name> 폴더가 생성되고 모델이 저장됩니다
-     * 재학습시은 아래와 같이 로드할 모델 경로를 정해주면 됩니다
+     * 재학습은 아래와 같이 로드할 모델 경로를 정해주면 됩니다
   
   ```
    python train1.py -n <name> -c ckpt/<name>/1/ckpt-<step>.pt
